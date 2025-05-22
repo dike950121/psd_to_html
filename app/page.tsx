@@ -5,7 +5,7 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 import { FaGift } from "react-icons/fa";
 import { BsCart3, BsPerson, BsList } from "react-icons/bs";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClose, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 import Card from "@/app/components/Card";
 import ResponsiveSection from "@/app/components/ResponsiveSection";
 import { useState, useEffect } from 'react';

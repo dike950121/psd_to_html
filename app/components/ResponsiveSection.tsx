@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export default function ResponsiveSection() {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
@@ -27,7 +29,14 @@ export default function ResponsiveSection() {
       <div><Image src="/images/layer_66_copy_5.png" alt="FC25 load is failed." width={300} height={500} /></div>
       <div className="flex flex-col gap-5 p-8">
         <div className="uppercase text-[30px] lg:text-[2vw]">Buy <b>EA FC 25</b> coins title width</div>
-        <div>4.9/5 | 15.000+ Reviews</div>
+        <div>
+          <FontAwesomeIcon icon={faStar} className="text-2xl text-[gold]" />
+          <FontAwesomeIcon icon={faStar} className="text-2xl text-[gold]" />
+          <FontAwesomeIcon icon={faStar} className="text-2xl text-[gold]" />
+          <FontAwesomeIcon icon={faStar} className="text-2xl text-[gold]" />
+          <FontAwesomeIcon icon={faStar} className="text-2xl text-[gold]" />
+          <span className="mx-3">4.9/5 | 15.000+ Reviews</span>
+        </div>
         <div className="flex items-center text-xl gap-4">
           <Image src="/images/fut.png" alt="FC25 load is failed." width={30} height={30} />
           <div>52.342K sold in last 24h</div>
